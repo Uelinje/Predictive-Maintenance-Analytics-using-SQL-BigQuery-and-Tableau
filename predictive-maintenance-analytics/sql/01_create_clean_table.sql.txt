@@ -1,0 +1,32 @@
+CREATE OR REPLACE TABLE 
+`engine-analytics-490008.engine_health_data.engine_cleaned` AS
+
+SELECT
+  int64_field_0 AS engine_id,
+  int64_field_1 AS cycle,
+  double_field_2 AS setting_1,
+  double_field_3 AS setting_2,
+  int64_field_4 AS setting_3,
+  double_field_5 AS sensor_1,
+  double_field_6 AS sensor_2,
+  double_field_7 AS sensor_3,
+  double_field_8 AS sensor_4,
+  double_field_9 AS sensor_5,
+  double_field_10 AS sensor_6,
+  double_field_11 AS sensor_7,
+  double_field_12 AS sensor_8,
+  double_field_13 AS sensor_9,
+  double_field_14 AS sensor_10,
+  double_field_15 AS sensor_11,
+  double_field_16 AS sensor_12,
+  double_field_17 AS sensor_13,
+  double_field_18 AS sensor_14,
+  double_field_19 AS sensor_15,
+  double_field_20 AS sensor_16,
+  int64_field_21 AS sensor_17,
+  int64_field_22 AS sensor_18,
+  int64_field_23 AS sensor_19,
+  double_field_24 AS sensor_20,
+  double_field_25 AS sensor_21
+
+FROM `engine-analytics-490008.engine_health_data.engine_train_fd001`;

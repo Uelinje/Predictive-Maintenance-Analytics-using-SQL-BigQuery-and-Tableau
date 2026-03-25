@@ -1,0 +1,12 @@
+CREATE OR REPLACE TABLE
+`engine-analytics-490008.engine_health_data.sensor_degradation` AS
+
+SELECT
+  remaining_life,
+  AVG(sensor_4) AS sensor_4,
+  AVG(sensor_7) AS sensor_7,
+  AVG(sensor_11) AS sensor_11,
+  AVG(sensor_15) AS sensor_15
+FROM `engine-analytics-490008.engine_health_data.engine_rul`
+GROUP BY remaining_life
+ORDER BY remaining_life DESC;

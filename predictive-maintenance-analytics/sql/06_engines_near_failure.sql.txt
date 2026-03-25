@@ -1,0 +1,9 @@
+CREATE OR REPLACE TABLE
+`engine-analytics-490008.engine_health_data.engines_near_failure` AS
+
+SELECT
+  engine_id,
+  cycle,
+  remaining_life
+FROM `engine-analytics-490008.engine_health_data.engine_rul`
+WHERE remaining_life <= 20;
