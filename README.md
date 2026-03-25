@@ -83,7 +83,7 @@ predictive-maintenance-analytics
 ---
 
 ## Dashboard Preview
-![Dashboard]([tableau/dashboard.png](https://github.com/Uelinje/Predictive-Maintenance-Analytics-using-SQL-BigQuery-and-Tableau/blob/main/predictive-maintenance-analytics/tableau/dashboard.png)
+![Dashboard](tableau/images/dashboard.png)
 
 ---
 
