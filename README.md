@@ -83,7 +83,7 @@ predictive-maintenance-analytics
 ---
 
 ## Dashboard Preview
-![tableau](images/dashboard.png)
+![Dashboard](tableau/images/dashboard.png)
 
 ---
 
