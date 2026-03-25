@@ -1,7 +1,0 @@
-CREATE OR REPLACE TABLE 
-`engine-analytics-490008.engine_health_data.engine_rul` AS
-
-SELECT
-  *,
-  MAX(cycle) OVER (PARTITION BY engine_id) - cycle AS remaining_life
-FROM `engine-analytics-490008.engine_health_data.engine_cleaned`;

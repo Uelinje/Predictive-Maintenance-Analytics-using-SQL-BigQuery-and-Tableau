@@ -1,9 +1,0 @@
-CREATE OR REPLACE TABLE
-`engine-analytics-490008.engine_health_data.failure_distribution` AS
-
-SELECT
-  total_cycles,
-  COUNT(*) AS engine_count
-FROM `engine-analytics-490008.engine_health_data.engine_summary`
-GROUP BY total_cycles
-ORDER BY total_cycles;
